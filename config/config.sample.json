@@ -1,0 +1,30 @@
+{
+  "redisURL": "http://localhost/",
+  "auth": {
+    "twitter": {
+      "consumerkey" : "yourConsumerKey",
+      "consumersecret" : "yourSecretKey",
+      "callback" : "http://127.0.0.1:6789/auth/twitter/callback"
+    },
+    "facebook": {
+      "clientid" : "yourClientID",
+      "clientsecret" : "yourClientSecret",
+      "callback" : "http://127.0.0.1:6789/auth/facebook/callback"
+    },
+    "github": {
+      "clientid" : "yourClientID",
+      "clientsecret" : "yourClientSecret",
+      "callback" : "http://127.0.0.1:6789/auth/github/callback"
+    }
+  },
+  "session" : {
+    "secret" : "yourbestsecret",
+    "age" : 0
+  },
+  "app": {
+    "port": 6789
+  },
+  "theme": {
+    "name" : "default"
+  }
+}

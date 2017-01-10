@@ -1,0 +1,30 @@
+{
+  "redisURL": "http://localhost:6379",
+  "auth": {
+    "twitter": {
+      "consumerkey" : "iZLx8dY724fuUw1jxaxqNvyd5",
+      "consumersecret" : "pfQw2v0RZ5L3dJtvSJ0FoO7bAC3YGTRGeT2DRn2BvQbCESXMgi",
+      "callback" : "http://45.55.242.33:3000/auth/twitter/callback"
+    },
+    "facebook": {
+      "clientid" : "yourClientID",
+      "clientsecret" : "yourClientSecret",
+      "callback" : "http://127.0.0.1:6789/auth/facebook/callback"
+    },
+    "github": {
+      "clientid" : "yourClientID",
+      "clientsecret" : "yourClientSecret",
+      "callback" : "http://127.0.0.1:6789/auth/github/callback"
+    }
+  },
+  "session" : {
+    "secret" : "yourbestsecret",
+    "age" : 0
+  },
+  "app": {
+    "port": 3000
+  },
+  "theme": {
+    "name" : "default"
+  }
+}
